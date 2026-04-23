@@ -39,7 +39,7 @@
         <dependency>
             <groupId>com.github.FrostHexABG</groupId>
             <artifactId>TimingSystem</artifactId>
-            <version>b53d8baad07d5373b7e21bef7b87ff442bb1523b</version>
+            <version>6574d6e8cc</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

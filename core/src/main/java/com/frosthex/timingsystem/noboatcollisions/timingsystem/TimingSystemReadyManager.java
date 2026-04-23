@@ -15,15 +15,15 @@ public class TimingSystemReadyManager {
      */
     public static void setNMSBoatSpawner() {
         TimingSystemAPI.setBoatSpawner(new BoatSpawnerExtension() {
-            @Override
-            public Boat spawnBoat(Location location) {
-                return TimingSystemNoBoatCollisionsPlugin.getNmsHandler().spawnBoat(location);
-            }
-
-            @Override
-            public Boat spawnChestBoat(Location location) {
-                return TimingSystemNoBoatCollisionsPlugin.getNmsHandler().spawnChestBoat(location);
-            }
+//            @Override
+//            public Boat spawnBoat(Location location) {
+//                return TimingSystemNoBoatCollisionsPlugin.getNmsHandler().spawnBoat(location);
+//            }
+//
+//            @Override
+//            public Boat spawnChestBoat(Location location) {
+//                return TimingSystemNoBoatCollisionsPlugin.getNmsHandler().spawnChestBoat(location);
+//            }
 
             // 1.21.4+
             @Override
