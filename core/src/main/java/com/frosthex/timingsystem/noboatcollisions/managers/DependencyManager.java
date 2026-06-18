@@ -15,7 +15,7 @@ public class DependencyManager {
     private static final String timingSystemSupportedVersion = "3.0-SNAPSHOT";
     private static final VersionComparator compare = new VersionComparator();
 
-    private static final String[] supportedMinecraftVersions = {"1.19.4", "1.20.1", "1.20.6", "1.21.1", "1.21.4", "1.21.11"};
+    private static final String[] supportedMinecraftVersions = {"1.19.4", "1.20.1", "1.20.6", "1.21.1", "1.21.4", "1.21.11", "26.1.2"};
     private static boolean minecraftVersionSupported = false;
 
     public static void checkDependancies() {
