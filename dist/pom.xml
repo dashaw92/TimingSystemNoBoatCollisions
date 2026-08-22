@@ -73,15 +73,21 @@
 <!--            <version>1.2-RC1</version>-->
 <!--            <scope>compile</scope>-->
 <!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.frosthex</groupId>-->
+<!--            <artifactId>TimingSystemNoBoatCollisions-spigot-1.21.11</artifactId>-->
+<!--            <version>1.2-RC1</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.frosthex</groupId>-->
+<!--            <artifactId>TimingSystemNoBoatCollisions-spigot-26.1</artifactId>-->
+<!--            <version>1.2-RC1</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>com.frosthex</groupId>
-            <artifactId>TimingSystemNoBoatCollisions-spigot-1.21.11</artifactId>
-            <version>1.2-RC1</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.frosthex</groupId>
-            <artifactId>TimingSystemNoBoatCollisions-spigot-26.1</artifactId>
+            <artifactId>TimingSystemNoBoatCollisions-spigot-26.2</artifactId>
             <version>1.2-RC1</version>
             <scope>compile</scope>
         </dependency>

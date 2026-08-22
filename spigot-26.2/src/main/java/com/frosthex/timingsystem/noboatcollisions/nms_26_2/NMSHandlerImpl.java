@@ -27,7 +27,7 @@ public class NMSHandlerImpl implements NMSHandler {
 
         switch (boatType) {
             case "OAK_BOAT":
-                CollisionlessBoat oakBoat = new CollisionlessBoat(net.minecraft.world.entity.EntityType.OAK_BOAT, level, () -> Items.AIR);
+                CollisionlessBoat oakBoat = new CollisionlessBoat(net.minecraft.world.entity.EntityTypes.OAK_BOAT, level, () -> Items.AIR);
                 oakBoat.setInitialPos(location.getX(), location.getY(), location.getZ());
                 oakBoat.setYRot(yaw);
                 oakBoat.yRotO = yaw;
@@ -36,7 +36,7 @@ public class NMSHandlerImpl implements NMSHandler {
                 boat = new CraftOakBoat(level.getCraftServer(), oakBoat);
                 break;
             case "SPRUCE_BOAT":
-                CollisionlessBoat spruceBoat = new CollisionlessBoat(net.minecraft.world.entity.EntityType.SPRUCE_BOAT, level, () -> Items.AIR);
+                CollisionlessBoat spruceBoat = new CollisionlessBoat(net.minecraft.world.entity.EntityTypes.SPRUCE_BOAT, level, () -> Items.AIR);
                 spruceBoat.setInitialPos(location.getX(), location.getY(), location.getZ());
                 spruceBoat.setYRot(yaw);
                 spruceBoat.yRotO = yaw;
@@ -45,7 +45,7 @@ public class NMSHandlerImpl implements NMSHandler {
                 boat = new CraftSpruceBoat(level.getCraftServer(), spruceBoat);
                 break;
             case "BIRCH_BOAT":
-                CollisionlessBoat birchBoat = new CollisionlessBoat(net.minecraft.world.entity.EntityType.BIRCH_BOAT, level, () -> Items.AIR);
+                CollisionlessBoat birchBoat = new CollisionlessBoat(net.minecraft.world.entity.EntityTypes.BIRCH_BOAT, level, () -> Items.AIR);
                 birchBoat.setInitialPos(location.getX(), location.getY(), location.getZ());
                 birchBoat.setYRot(yaw);
                 birchBoat.yRotO = yaw;
@@ -54,7 +54,7 @@ public class NMSHandlerImpl implements NMSHandler {
                 boat = new CraftBirchBoat(level.getCraftServer(), birchBoat);
                 break;
             case "JUNGLE_BOAT":
-                CollisionlessBoat jungleBoat = new CollisionlessBoat(net.minecraft.world.entity.EntityType.JUNGLE_BOAT, level, () -> Items.AIR);
+                CollisionlessBoat jungleBoat = new CollisionlessBoat(net.minecraft.world.entity.EntityTypes.JUNGLE_BOAT, level, () -> Items.AIR);
                 jungleBoat.setInitialPos(location.getX(), location.getY(), location.getZ());
                 jungleBoat.setYRot(yaw);
                 jungleBoat.yRotO = yaw;
@@ -63,7 +63,7 @@ public class NMSHandlerImpl implements NMSHandler {
                 boat = new CraftJungleBoat(level.getCraftServer(), jungleBoat);
                 break;
             case "ACACIA_BOAT":
-                CollisionlessBoat acaciaBoat = new CollisionlessBoat(net.minecraft.world.entity.EntityType.ACACIA_BOAT, level, () -> Items.AIR);
+                CollisionlessBoat acaciaBoat = new CollisionlessBoat(net.minecraft.world.entity.EntityTypes.ACACIA_BOAT, level, () -> Items.AIR);
                 acaciaBoat.setInitialPos(location.getX(), location.getY(), location.getZ());
                 acaciaBoat.setYRot(yaw);
                 acaciaBoat.yRotO = yaw;
@@ -72,7 +72,7 @@ public class NMSHandlerImpl implements NMSHandler {
                 boat = new CraftAcaciaBoat(level.getCraftServer(), acaciaBoat);
                 break;
             case "DARK_OAK_BOAT":
-                CollisionlessBoat darkOakBoat = new CollisionlessBoat(net.minecraft.world.entity.EntityType.DARK_OAK_BOAT, level, () -> Items.AIR);
+                CollisionlessBoat darkOakBoat = new CollisionlessBoat(net.minecraft.world.entity.EntityTypes.DARK_OAK_BOAT, level, () -> Items.AIR);
                 darkOakBoat.setInitialPos(location.getX(), location.getY(), location.getZ());
                 darkOakBoat.setYRot(yaw);
                 darkOakBoat.yRotO = yaw;
@@ -81,7 +81,7 @@ public class NMSHandlerImpl implements NMSHandler {
                 boat = new CraftDarkOakBoat(level.getCraftServer(), darkOakBoat);
                 break;
             case "MANGROVE_BOAT":
-                CollisionlessBoat mangroveBoat = new CollisionlessBoat(net.minecraft.world.entity.EntityType.MANGROVE_BOAT, level, () -> Items.AIR);
+                CollisionlessBoat mangroveBoat = new CollisionlessBoat(net.minecraft.world.entity.EntityTypes.MANGROVE_BOAT, level, () -> Items.AIR);
                 mangroveBoat.setInitialPos(location.getX(), location.getY(), location.getZ());
                 mangroveBoat.setYRot(yaw);
                 mangroveBoat.yRotO = yaw;
@@ -90,7 +90,7 @@ public class NMSHandlerImpl implements NMSHandler {
                 boat = new CraftMangroveBoat(level.getCraftServer(), mangroveBoat);
                 break;
             case "CHERRY_BOAT":
-                CollisionlessBoat cherryBoat = new CollisionlessBoat(net.minecraft.world.entity.EntityType.CHERRY_BOAT, level, () -> Items.AIR);
+                CollisionlessBoat cherryBoat = new CollisionlessBoat(net.minecraft.world.entity.EntityTypes.CHERRY_BOAT, level, () -> Items.AIR);
                 cherryBoat.setInitialPos(location.getX(), location.getY(), location.getZ());
                 cherryBoat.setYRot(yaw);
                 cherryBoat.yRotO = yaw;
@@ -99,7 +99,7 @@ public class NMSHandlerImpl implements NMSHandler {
                 boat = new CraftCherryBoat(level.getCraftServer(), cherryBoat);
                 break;
             case "BAMBOO_RAFT":
-                CollisionlessRaft bambooRaft = new CollisionlessRaft(net.minecraft.world.entity.EntityType.BAMBOO_RAFT, level, () -> Items.AIR);
+                CollisionlessRaft bambooRaft = new CollisionlessRaft(net.minecraft.world.entity.EntityTypes.BAMBOO_RAFT, level, () -> Items.AIR);
                 bambooRaft.setInitialPos(location.getX(), location.getY(), location.getZ());
                 bambooRaft.setYRot(yaw);
                 bambooRaft.yRotO = yaw;
@@ -108,7 +108,7 @@ public class NMSHandlerImpl implements NMSHandler {
                 boat = new CraftBambooRaft(level.getCraftServer(), bambooRaft);
                 break;
             case "OAK_CHEST_BOAT":
-                CollisionlessChestBoat oakChestBoat = new CollisionlessChestBoat(net.minecraft.world.entity.EntityType.OAK_CHEST_BOAT, level, () -> Items.AIR);
+                CollisionlessChestBoat oakChestBoat = new CollisionlessChestBoat(net.minecraft.world.entity.EntityTypes.OAK_CHEST_BOAT, level, () -> Items.AIR);
                 oakChestBoat.setInitialPos(location.getX(), location.getY(), location.getZ());
                 oakChestBoat.setYRot(yaw);
                 oakChestBoat.yRotO = yaw;
@@ -117,7 +117,7 @@ public class NMSHandlerImpl implements NMSHandler {
                 boat = new CraftOakChestBoat(level.getCraftServer(), oakChestBoat);
                 break;
             case "SPRUCE_CHEST_BOAT":
-                CollisionlessChestBoat spruceChestBoat = new CollisionlessChestBoat(net.minecraft.world.entity.EntityType.SPRUCE_CHEST_BOAT, level, () -> Items.AIR);
+                CollisionlessChestBoat spruceChestBoat = new CollisionlessChestBoat(net.minecraft.world.entity.EntityTypes.SPRUCE_CHEST_BOAT, level, () -> Items.AIR);
                 spruceChestBoat.setInitialPos(location.getX(), location.getY(), location.getZ());
                 spruceChestBoat.setYRot(yaw);
                 spruceChestBoat.yRotO = yaw;
@@ -126,7 +126,7 @@ public class NMSHandlerImpl implements NMSHandler {
                 boat = new CraftSpruceChestBoat(level.getCraftServer(), spruceChestBoat);
                 break;
             case "BIRCH_CHEST_BOAT":
-                CollisionlessChestBoat birchChestBoat = new CollisionlessChestBoat(net.minecraft.world.entity.EntityType.BIRCH_CHEST_BOAT, level, () -> Items.AIR);
+                CollisionlessChestBoat birchChestBoat = new CollisionlessChestBoat(net.minecraft.world.entity.EntityTypes.BIRCH_CHEST_BOAT, level, () -> Items.AIR);
                 birchChestBoat.setInitialPos(location.getX(), location.getY(), location.getZ());
                 birchChestBoat.setYRot(yaw);
                 birchChestBoat.yRotO = yaw;
@@ -135,7 +135,7 @@ public class NMSHandlerImpl implements NMSHandler {
                 boat = new CraftBirchChestBoat(level.getCraftServer(), birchChestBoat);
                 break;
             case "JUNGLE_CHEST_BOAT":
-                CollisionlessChestBoat jungleChestBoat = new CollisionlessChestBoat(net.minecraft.world.entity.EntityType.JUNGLE_CHEST_BOAT, level, () -> Items.AIR);
+                CollisionlessChestBoat jungleChestBoat = new CollisionlessChestBoat(net.minecraft.world.entity.EntityTypes.JUNGLE_CHEST_BOAT, level, () -> Items.AIR);
                 jungleChestBoat.setInitialPos(location.getX(), location.getY(), location.getZ());
                 jungleChestBoat.setYRot(yaw);
                 jungleChestBoat.yRotO = yaw;
@@ -144,7 +144,7 @@ public class NMSHandlerImpl implements NMSHandler {
                 boat = new CraftJungleChestBoat(level.getCraftServer(), jungleChestBoat);
                 break;
             case "ACACIA_CHEST_BOAT":
-                CollisionlessChestBoat acaciaChestBoat = new CollisionlessChestBoat(net.minecraft.world.entity.EntityType.ACACIA_CHEST_BOAT, level, () -> Items.AIR);
+                CollisionlessChestBoat acaciaChestBoat = new CollisionlessChestBoat(net.minecraft.world.entity.EntityTypes.ACACIA_CHEST_BOAT, level, () -> Items.AIR);
                 acaciaChestBoat.setInitialPos(location.getX(), location.getY(), location.getZ());
                 acaciaChestBoat.setYRot(yaw);
                 acaciaChestBoat.yRotO = yaw;
@@ -153,7 +153,7 @@ public class NMSHandlerImpl implements NMSHandler {
                 boat = new CraftAcaciaChestBoat(level.getCraftServer(), acaciaChestBoat);
                 break;
             case "DARK_OAK_CHEST_BOAT":
-                CollisionlessChestBoat darkOakChestBoat = new CollisionlessChestBoat(net.minecraft.world.entity.EntityType.DARK_OAK_CHEST_BOAT, level, () -> Items.AIR);
+                CollisionlessChestBoat darkOakChestBoat = new CollisionlessChestBoat(net.minecraft.world.entity.EntityTypes.DARK_OAK_CHEST_BOAT, level, () -> Items.AIR);
                 darkOakChestBoat.setInitialPos(location.getX(), location.getY(), location.getZ());
                 darkOakChestBoat.setYRot(yaw);
                 darkOakChestBoat.yRotO = yaw;
@@ -162,7 +162,7 @@ public class NMSHandlerImpl implements NMSHandler {
                 boat = new CraftDarkOakChestBoat(level.getCraftServer(), darkOakChestBoat);
                 break;
             case "MANGROVE_CHEST_BOAT":
-                CollisionlessChestBoat mangroveChestBoat = new CollisionlessChestBoat(net.minecraft.world.entity.EntityType.MANGROVE_CHEST_BOAT, level, () -> Items.AIR);
+                CollisionlessChestBoat mangroveChestBoat = new CollisionlessChestBoat(net.minecraft.world.entity.EntityTypes.MANGROVE_CHEST_BOAT, level, () -> Items.AIR);
                 mangroveChestBoat.setInitialPos(location.getX(), location.getY(), location.getZ());
                 mangroveChestBoat.setYRot(yaw);
                 mangroveChestBoat.yRotO = yaw;
@@ -171,7 +171,7 @@ public class NMSHandlerImpl implements NMSHandler {
                 boat = new CraftMangroveChestBoat(level.getCraftServer(), mangroveChestBoat);
                 break;
             case "CHERRY_CHEST_BOAT":
-                CollisionlessChestBoat cherryChestBoat = new CollisionlessChestBoat(net.minecraft.world.entity.EntityType.CHERRY_CHEST_BOAT, level, () -> Items.AIR);
+                CollisionlessChestBoat cherryChestBoat = new CollisionlessChestBoat(net.minecraft.world.entity.EntityTypes.CHERRY_CHEST_BOAT, level, () -> Items.AIR);
                 cherryChestBoat.setInitialPos(location.getX(), location.getY(), location.getZ());
                 cherryChestBoat.setYRot(yaw);
                 cherryChestBoat.yRotO = yaw;
@@ -180,7 +180,7 @@ public class NMSHandlerImpl implements NMSHandler {
                 boat = new CraftCherryChestBoat(level.getCraftServer(), cherryChestBoat);
                 break;
             case "BAMBOO_CHEST_RAFT":
-                CollisionlessChestRaft bambooChestRaft = new CollisionlessChestRaft(net.minecraft.world.entity.EntityType.BAMBOO_CHEST_RAFT, level, () -> Items.AIR);
+                CollisionlessChestRaft bambooChestRaft = new CollisionlessChestRaft(net.minecraft.world.entity.EntityTypes.BAMBOO_CHEST_RAFT, level, () -> Items.AIR);
                 bambooChestRaft.setInitialPos(location.getX(), location.getY(), location.getZ());
                 bambooChestRaft.setYRot(yaw);
                 bambooChestRaft.yRotO = yaw;
@@ -191,7 +191,7 @@ public class NMSHandlerImpl implements NMSHandler {
 
             default:
                 // Fallback to oak boat
-                CollisionlessBoat defaultColBoat = new CollisionlessBoat(net.minecraft.world.entity.EntityType.OAK_BOAT, level, () -> Items.AIR);
+                CollisionlessBoat defaultColBoat = new CollisionlessBoat(net.minecraft.world.entity.EntityTypes.OAK_BOAT, level, () -> Items.AIR);
                 level.addFreshEntity(defaultColBoat, CreatureSpawnEvent.SpawnReason.COMMAND);
                 boat = new CraftOakBoat(level.getCraftServer(), defaultColBoat);
                 break;

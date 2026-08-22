@@ -14,8 +14,9 @@
 <!--        <module>spigot-1.20.6</module>-->
 <!--        <module>spigot-1.21.1</module>-->
 <!--        <module>spigot-1.21.4</module>-->
-        <module>spigot-1.21.11</module>
-        <module>spigot-26.1</module>
+<!--        <module>spigot-1.21.11</module>-->
+<!--        <module>spigot-26.1</module>-->
+        <module>spigot-26.2</module>
         <module>dist</module>
 <!--        <module>spigot-1.19.4</module>-->
     </modules>
